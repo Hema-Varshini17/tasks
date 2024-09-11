@@ -1,0 +1,142 @@
+*{
+   
+}
+body{
+    background-color:bisque;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+}
+.container {
+    background-color: white;
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    align-content:space-around;
+    margin: auto;
+    padding:40px;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+img{
+    border-radius: 20px;
+    max-width:100%;
+    height: auto;
+}
+.Preparation{
+    background-color: rgb(245, 235, 245);
+    border-radius: 5px;
+    padding: 20px;
+}
+h3{
+    color: brown;
+    font-family:"young-serif";
+    line-height:2em;
+}
+li{
+    padding-right: 25px;
+
+}
+h4{
+    color: purple;
+    font-family: "outfit";
+    line-height: 2em;
+}
+/* table{
+    border-collapse:collapse ;
+    width:100%;
+    font-size: 10px;
+    font-family: "outfit";
+    line-height:1.5em;
+}
+ tr{
+    text-align: left;
+    border-bottom: 1px solid gray;
+    line-height: 3em;
+    color: darkolivegreen;
+} */
+
+@font-face{
+    font-family: "outfit";
+    src:url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family:"young-serif";
+
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+p{
+    font-family: "outfit";
+    color: darkolivegreen;
+    font-size: 10px;
+    line-height: 1.5em;
+}
+li{
+    font-family: "outfit";
+    list-style-position:inside;
+   
+    font-size:12px;
+    line-height:1.5em;
+    color: darkolivegreen;
+    
+}
+.Ingredians{
+    padding: 15px;
+    border-bottom: 1px solid gray;
+}
+.step{
+    padding: 15px;
+    border-bottom:1px solid gray;
+}
+.nutrs{
+    padding:15px;
+}
+.p-15{
+    padding:15px;
+}
+h2{
+    line-height: 2.5em;
+}
+li::marker{
+    color: rgb(52, 8, 8);
+}
+/* tbody>tr>:nth-child(2){
+    color:rgb(120, 7, 7);
+    width:200px;
+    text-align:center;
+    font-weight: bold;
+}
+table tr:last-child {
+    border-bottom: none;
+  } */
+
+  .common-li li{
+    padding: 50px;
+  }
+  .common-table {
+    width: 100%;
+  }
+ 
+  .common-table thead tr th{
+    padding:10px 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  .common-table tbody tr td{
+    padding:10px 10px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .common-table tbody tr td:nth-child(2),  .common-table thead tr th:nth-child(2){
+    color: red;
+  }
+  .common-table tbody tr:last-child td{
+    border-bottom: none;
+  }
